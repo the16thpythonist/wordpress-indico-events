@@ -1,0 +1,23 @@
+{
+  "name": "the16thpythonist/wordpress-indico-events",
+  "description": "Adding a 'IndicoEvent' custom post type to wordpress based on the event site indico",
+  "type": "library",
+  "version": "0.0.0.0",
+  "authors": [
+    {
+      "name": "Jonas Teufel",
+      "email": "jonseb1998@gmail.com"
+    }
+  ],
+  "require": {
+    "the16thpythonist/indico-api": "@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "the16thpythonist\\Wordpress\\Indico\\": "src/the16thpythonist/Wordpress/Indico"
+    }
+  }
+}
